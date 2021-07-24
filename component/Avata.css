@@ -1,0 +1,14 @@
+.avatar{
+	width: 20px;
+	height: 60px
+	border-radius: 50%;
+}
+@media (max-width: 760) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px

@@ -1,0 +1,27 @@
+.banner{
+	/* 1. set a background image*/
+	background-image:
+	  /*transparent gradient above*/
+	  linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), 
+	  /*then image below*/
+	  url(images/background.jpg);
+	color: white
+	padding:150px 0px;
+	/* 2. make the backround image cover the banner div*/
+	background-size: cover;
+	/*center the image*/
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 50px
+	color: white
+}
+.banner h2 {
+	font-size: 30px
+	font-weight:lighter;
+	opacity: 0.8
+	margin bottom:40px;
+	color: white
+
+}
